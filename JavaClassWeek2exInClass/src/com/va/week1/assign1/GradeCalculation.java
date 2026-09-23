@@ -26,7 +26,7 @@ public class GradeCalculation {
 			scanner.close();
 			avg = total / classCount;
 			System.out.print("The student Grade is: "+avg+" which is a");
-			switch((int)(avg/10-(avg%10))) {
+			switch((int)((avg-(avg%10))/10)) {
 				case 10:
 				case 9: System.out.print("n A"); break;
 				case 8: System.out.print(" B"); break;
