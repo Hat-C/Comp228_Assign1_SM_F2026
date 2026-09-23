@@ -23,9 +23,9 @@ public class LitersToGallons {
 			inputNum = inp.nextDouble();
 			inp.close();
 			if(whichMeth=="LI"||whichMeth=="1") {
-				System.out.println(inputNum+" liters = "+(inputNum*0.264172)+" km");
+				System.out.println(inputNum+" liters = "+(inputNum*0.264172)+" gallons");
 			} else {
-				System.out.println(inputNum+" km = "+(inputNum*3.785412)+" miles");
+				System.out.println(inputNum+" gallons = "+(inputNum*3.785412)+" liters");
 			}	
 		} catch(ArithmeticException e) {
 			System.out.println("incorrect input type");
